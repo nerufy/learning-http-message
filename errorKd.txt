@@ -1,0 +1,123 @@
+Script started on Fri Jun  7 12:10:47 2019
+[?1034hbash-3.2$ exitopenssl s_client -crlf -connect www.kobedenshi.ac.jp:443
+CONNECTED(00000005)
+depth=2 C = JP, O = "SECOM Trust Systems CO.,LTD.", OU = Security Communication RootCA2
+verify return:1
+depth=1 C = JP, O = "Japan Registry Services Co., Ltd.", CN = JPRS Domain Validation Authority - G2
+verify return:1
+depth=0 CN = *.kobedenshi.ac.jp
+verify return:1
+---
+Certificate chain
+ 0 s:CN = *.kobedenshi.ac.jp
+   i:C = JP, O = "Japan Registry Services Co., Ltd.", CN = JPRS Domain Validation Authority - G2
+ 1 s:C = JP, O = "Japan Registry Services Co., Ltd.", CN = JPRS Domain Validation Authority - G2
+   i:C = JP, O = "SECOM Trust Systems CO.,LTD.", OU = Security Communication RootCA2
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIGDTCCBPWgAwIBAgIIDhJN0BOL2NkwDQYJKoZIhvcNAQELBQAwaTELMAkGA1UE
+BhMCSlAxKjAoBgNVBAoTIUphcGFuIFJlZ2lzdHJ5IFNlcnZpY2VzIENvLiwgTHRk
+LjEuMCwGA1UEAxMlSlBSUyBEb21haW4gVmFsaWRhdGlvbiBBdXRob3JpdHkgLSBH
+MjAeFw0xODExMjIwODU1NTFaFw0xOTExMzAxNDU5NTlaMB0xGzAZBgNVBAMMEiou
+a29iZWRlbnNoaS5hYy5qcDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+ANKrdzbhi4Fb8ohFPU3Nju6yOH4plJ3LRrPlwjmwv1vAPohmhk1zp5LzjBZJmyjJ
+dGngDdUN/smv/S3vc75VXgvLG9uvFBddQSaAVycGeSKfSt80l9VxCnMJW38lQgwU
+7rAEx7w5BaPF6KrESD3cO8S6hEBBRijQVs6vyVAvOk8uBl8n0C9TZiPi5aCJ4Adh
+wXQvw/SevpL/9UBYyEzl6SCLUYX2G0euGkWC5jo2p0jhikSce8uaShUCDuR99l2l
+7cNDc8UyJm4XvXro8vdFHM+e5zsq8qN/icHehxYMayrDwSOnPWKx6MAPaRbXmaN0
+3LYVko8Gxfz/elOjLg+/iY0CAwEAAaOCAwMwggL/MB8GA1UdIwQYMBaAFLs66ldi
+eAwyrR+ye/YdBiKW4avwMD0GCCsGAQUFBwEBBDEwLzAtBggrBgEFBQcwAYYhaHR0
+cDovL2R2LmcyLm9jc3AucHViY2VydC5qcHJzLmpwMC8GA1UdEQQoMCaCEioua29i
+ZWRlbnNoaS5hYy5qcIIQa29iZWRlbnNoaS5hYy5qcDBZBgNVHSAEUjBQMEQGCiqD
+CIybG26BUAMwNjA0BggrBgEFBQcCARYoaHR0cHM6Ly9qcHJzLmpwL3B1YmNlcnQv
+aW5mby9yZXBvc2l0b3J5LzAIBgZngQwBAgEwEwYDVR0lBAwwCgYIKwYBBQUHAwEw
+SwYDVR0fBEQwQjBAoD6gPIY6aHR0cDovL3JlcG8ucHViY2VydC5qcHJzLmpwL3Nw
+cGNhL2pwcnMvZHZjYV9nMi9mdWxsY3JsLmNybDAdBgNVHQ4EFgQUdoGZjmnZOODB
+7DNfNvJHSPRFj7UwDgYDVR0PAQH/BAQDAgWgMIIBfgYKKwYBBAHWeQIEAgSCAW4E
+ggFqAWgAdgCkuQmQtBhYFIe7E6LMZ3AKPDWYBPkb37jjd80OyA3cEAAAAWc6qyGc
+AAAEAwBHMEUCIEHRIFCc3J2f/hif15jTzIoQlkr4dFCCQZRSqJC413w9AiEA+eUJ
+9BvMCnEhRLAAK31GZrW1jUs0llgL1nRoFwUZT9UAdgDuS723dc5guuFCaR+r4Z5m
+ow9+X7By2IMAxHuJeqj9ywAAAWc6qyc7AAAEAwBHMEUCIFJsTBYPXEZAgyoz8MTz
+e++O7snb1Z5aBUArSE/KzUT6AiEAhpc1vZyvlLiegcd4VtnJ+Sp3sC3PHWzRttL/
+t3ad4h8AdgBvU3asMfAxGdiZAKRRFf93FRwR2QLBACkGjbIImjfZEwAAAWc6qy82
+AAAEAwBHMEUCIQDQtUbuwtkErkWoWtf7uDZWf0YUQ6zHLmaw7ACiKZh5FwIgbRuB
+1tGtIu6El+/2HrzYMsvpxhAA/3kubtxRWKCMVs8wDQYJKoZIhvcNAQELBQADggEB
+ACXujmP8QZnPMNY+dNlzQVarfBgnTZ++SaHktGeSIHxIRj6Bytp8YsVNviPLD0ay
+OAXLW9xjdjR1ALnFHQFfF/19dcyhF5vo7D2qaXk0AdMuoFTutzxA83di/tNAuRPA
+/NSAOrnYXLOI4syDdEMB3sdAMt37pcEcsl8TS40h3VNm10apHhhfkoiPu+O8cylf
+XlZ4CAnuSKhozNiy5ohHMVVzRQ+51I4d5vKvohmwIOLMyl/krwAK2XWVUKiZMpAg
+w3mkfYpqyxfwlCsWxK4ISbe8UHbxB3Qh+8snQkKoXGd3wepbrtCzb4cSTKx06m8G
+7i9jxCB+7EBOwzLrMWqEKps=
+-----END CERTIFICATE-----
+subject=CN = *.kobedenshi.ac.jp
+
+issuer=C = JP, O = "Japan Registry Services Co., Ltd.", CN = JPRS Domain Validation Authority - G2
+
+---
+No client certificate CA names sent
+Peer signing digest: SHA512
+Peer signature type: RSA
+Server Temp Key: ECDH, P-256, 256 bits
+---
+SSL handshake has read 3438 bytes and written 448 bytes
+Verification: OK
+---
+New, TLSv1.2, Cipher is ECDHE-RSA-AES256-GCM-SHA384
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-AES256-GCM-SHA384
+    Session-ID: 4F0B78C804ABE68B215983DA45C72EA9E3B1C3534CD9B67D822894DC4F0FAAFD
+    Session-ID-ctx: 
+    Master-Key: E651F7DEFA1FFAB625044DC4AB242AD202B7104360A6D2CE6D95C109FFB931D9212A98D23DE7D74038656066250AC112
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 300 (seconds)
+    TLS session ticket:
+    0000 - fb 8b bd b5 c9 3c cd 5f-67 ba 54 d6 33 1b 97 96   .....<._g.T.3...
+    0010 - 47 f1 66 17 94 b8 b5 1a-88 d5 7b bb 8f 4e 72 4d   G.f.......{..NrM
+    0020 - 8c 09 a1 66 14 55 ca ee-d9 37 bd e7 87 f0 fd 96   ...f.U...7......
+    0030 - bb f4 e6 56 98 6a 0b 2c-05 46 51 2c b7 8c 2c fa   ...V.j.,.FQ,..,.
+    0040 - 48 c6 d5 d0 ca a3 3e 85-c0 af 7f 77 30 51 12 92   H.....>....w0Q..
+    0050 - 3c 0a 1a 94 e6 0e 69 2a-f0 ff a8 06 3c 77 68 e1   <.....i*....<wh.
+    0060 - c0 fd a1 04 bf 30 64 f8-ea ad 42 c9 90 e0 15 17   .....0d...B.....
+    0070 - 7c de 8f 6a 40 85 54 36-73 d0 82 72 14 4d be 2b   |..j@.T6s..r.M.+
+    0080 - 83 56 50 bf 8f 14 a6 e2-c7 62 c0 41 96 3e bb fc   .VP......b.A.>..
+    0090 - e2 10 f6 68 cd 1d a3 34-75 5a ac c9 8c d4 1f 09   ...h...4uZ......
+    00a0 - db 7f 03 d3 3f 11 39 a7-09 0d 5c 1c 69 a7 da 74   ....?.9...\.i..t
+    00b0 - a0 82 74 be 87 ef 14 4a-6a 49 03 54 21 d8 78 a8   ..t....JjI.T!.x.
+    00c0 - bf 34 02 48 0d c4 ee 81-3c 8b fe 09 75 81 02 fc   .4.H....<...u...
+
+    Start Time: 1559877051
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+---
+GET / HTTP/1.0
+
+HTTP/1.1 400 Bad Request
+Date: Fri, 07 Jun 2019 03:10:53 GMT
+Server: Apache
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+closed
+bash-3.2$ exit
+exit
+
+Script done on Fri Jun  7 12:11:07 2019
